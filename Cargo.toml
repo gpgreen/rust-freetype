@@ -15,5 +15,5 @@ name = "freetype"
 crate-type = ["rlib"]
 
 [dependencies]
-freetype-sys = { git = "https://github.com/gpgreen/freetype-sys", optional = true }
+freetype-sys = { git = "https://github.com/gpgreen/freetype-sys", branch = "master", optional = true }
 libc = "0.2"
